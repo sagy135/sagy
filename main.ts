@@ -1,10 +1,10 @@
-basic.showLeds(`
-    . . . . .
-    . # . # .
-    . . . . .
-    # . . . #
-    . # # # .
-    `)
+basic.showIcon(IconNames.Yes)
 basic.forever(function () {
-    basic.showIcon(IconNames.Happy)
+    basic.showLeds(`
+        . . . . .
+        . # . # .
+        . . . . .
+        # . . . #
+        . # # # .
+        `)
 })
